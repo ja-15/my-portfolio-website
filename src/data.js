@@ -94,7 +94,7 @@ export const projects = [
     category:"Web",
     data:{
       description: `Note taking and Todo-list app with complete authenication and email messaging.`,
-      demoLink: "https://google.com/",
+      demoLink: "https://my-portfolio-website-6kmok1vuu-john-arengas-projects.vercel.app/",
     },
     stack:[
       {
