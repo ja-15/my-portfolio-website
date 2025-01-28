@@ -2,6 +2,8 @@ import njCoaching from './assets/images/njCoaching.png';
 import rocketair from './assets/images/rocketair.png';
 import notetask from './assets/images/notetask.png';
 import myportfolio1 from './assets/images/myportfolio1.png';
+import conferenceTicketGenerator from './assets/images/conference-ticket-generator.png'
+
 
 import {FaFigma} from "react-icons/fa";
 import { FaReact, FaNodeJs} from "react-icons/fa";
@@ -94,7 +96,7 @@ export const projects = [
     category:"Web",
     data:{
       description: `Note taking and Todo-list app with complete authenication and email messaging.`,
-      demoLink: "https://my-portfolio-website-6kmok1vuu-john-arengas-projects.vercel.app/",
+      demoLink: "my-portfolio-website-black-nine.vercel.app",
     },
     stack:[
       {
@@ -119,5 +121,33 @@ export const projects = [
       }
     ]
 
+  },
+  {
+    id:5,
+    title: 'Conference Ticket Generator',
+    image: conferenceTicketGenerator,
+    category:"Web",
+    data:{
+      description: `A challenge from frontendmentor.io that users can request or submit their details
+      then it will automatically generate a ticket for event`,
+    },
+    stack:[
+      {
+        name:"ReactJs",
+        icon: FaReact,
+        iconColor:"skyblue",
+      },
+      {
+        name:"Javascript",
+        icon: IoLogoJavascript,
+        iconColor:"yellow",
+      },
+      {
+        name: 'RiTailwindCssFill',
+        icon: RiTailwindCssFill,
+        iconColor: '#248fef'
+      }
+    ]
+
   }
-]
+]  
