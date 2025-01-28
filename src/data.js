@@ -96,7 +96,7 @@ export const projects = [
     category:"Web",
     data:{
       description: `Note taking and Todo-list app with complete authenication and email messaging.`,
-      demoLink: "my-portfolio-website-black-nine.vercel.app",
+      demoLink: "https://my-portfolio-website-black-nine.vercel.app",
     },
     stack:[
       {
@@ -130,6 +130,8 @@ export const projects = [
     data:{
       description: `A challenge from frontendmentor.io that users can request or submit their details
       then it will automatically generate a ticket for event`,
+      demoLink: "https://conference-ticket-generator-amber.vercel.app",
+
     },
     stack:[
       {
