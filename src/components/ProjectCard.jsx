@@ -32,7 +32,7 @@ const ProjectCard = (props) => {
           </div>
           <div className="">
             <a href={props.data.demoLink} target="_blank" >
-            <HiMiniArrowTopRightOnSquare className="size-6 text-white cursor-pointer hover:text-primary hover:scale-125 place-self-center" />
+            <HiMiniArrowTopRightOnSquare className="size-6 text-white cursor-pointer hover:text-primary hover:scale-125 place-self-center duration-300 ease-in-out" />
             </a>
             </div>
         </div>
