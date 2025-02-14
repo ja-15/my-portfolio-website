@@ -129,14 +129,15 @@ export const projects = [
   {
     id:5,
     title: 'Conference Ticket Generator',
-    image: mortgagePaymentCalculator,
+    image: conferenceTicketGenerator,
     category:"Web",
     data:{
-      description: `A challenge from frontendmentor.io that allow users can to input details about their 
-      loan and get an estimate of their monthly payments`,
-      demoLink: "https://mortgage-repayment-calculator-black.vercel.app/",
+      description: `A challenge from frontendmentor.io that users can request or submit their details
+      then it will automatically generate a ticket for event`,
+      demoLink: "https://conference-ticket-generator-amber.vercel.app",
 
     },
+   
     stack:[
       {
         name:"ReactJs",
@@ -158,12 +159,12 @@ export const projects = [
   {
     id:6,
     title: 'Mortgage Payment Calculator',
-    image: conferenceTicketGenerator,
+    image: mortgagePaymentCalculator ,
     category:"Web",
     data:{
-      description: `A challenge from frontendmentor.io that users can request or submit their details
-      then it will automatically generate a ticket for event`,
-      demoLink: "https://conference-ticket-generator-amber.vercel.app",
+      description: `A challenge from frontendmentor.io that allows users to input the details about their 
+      loan and get an estimate of their monthly repayments`,
+      demoLink: "https://mortgage-repayment-calculator-black.vercel.app/",
 
     },
     stack:[
