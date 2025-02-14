@@ -1,8 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import { HiMiniArrowTopRightOnSquare } from "react-icons/hi2";
-import { FaBarsStaggered } from "react-icons/fa6";
+import { FaBarsStaggered, FaDownload  } from "react-icons/fa6";
 import {Link, animateScroll as scroll} from 'react-scroll'
-import {motion} from 'framer-motion'
 
 
 import logo1 from '../assets/logo/logo1.svg'
@@ -59,7 +58,7 @@ const Navbar = () => {
             <li key={item.name}>
              <a
               href={item.href}
-              className='hover:border-b-2 rounded-b hover:border-primary hover:duration-300 hover:ease-in-out hover:text-primary'>
+              className='p-navlinks'>
                 {item.name}
               </a>
             </li>
@@ -69,9 +68,9 @@ const Navbar = () => {
       <a href='https://drive.google.com/file/d/1Aymy0hL-nW5d74matEKa_-a5x8LXpZNI/view?pli=1' target="blank">
           <button 
             className='btn-secondary'>
-            Download CV  
-            <HiMiniArrowTopRightOnSquare
-            className='ml-2 size-6'/>
+            Resume 
+            <FaDownload
+            className='ml-2 mt-0.5 size-4'/>
           </button>
           </a>
           </div>

@@ -1,8 +1,10 @@
-import { RiTailwindCssFill } from "react-icons/ri";
+import { RiTailwindCssFill} from "react-icons/ri";
 import { FaReact, FaHtml5, FaCss3, FaNodeJs, FaPython} from "react-icons/fa";
 import Tooltip from "../components/animation/Tooltip";
 import { IoLogoJavascript } from "react-icons/io5";
-import { SiMongodb, SiExpress, SiMysql, SiPostgresql } from "react-icons/si";
+import { SiMongodb, SiExpress, SiMysql, SiPostgresql} from "react-icons/si";
+import { BiLogoTypescript } from "react-icons/bi";
+import { TbBrandNextjs } from "react-icons/tb";
 import {motion} from 'framer-motion';
 
 const variants = {
@@ -64,6 +66,10 @@ const Skills = () => {
               <Tooltip tooltip="PostgreSql">
                 <SiPostgresql className="size-10 fill-secondary" />
               </Tooltip>
+
+              <Tooltip tooltip="Next.js">
+                <TbBrandNextjs className="size-10" />
+              </Tooltip>
             </motion.div>
         </div>
 
@@ -90,7 +96,11 @@ const Skills = () => {
             <Tooltip tooltip="Javascript">
               <IoLogoJavascript className="size-10 fill-yellow-500 " />
             </Tooltip>
-             
+
+            <Tooltip tooltip="Typescript">
+                <BiLogoTypescript className="size-10 fill-secondary" />
+              </Tooltip>
+
             </motion.div>
 
         </div>

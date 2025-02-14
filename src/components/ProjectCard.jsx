@@ -4,8 +4,8 @@ import React from "react";
 const ProjectCard = (props) => {
   
   return (
-    <div className=' bg-slate-700 items-center justify-items-center w-[320px] rounded-lg overflow-hidden'>
-      <div className=''>
+    <div className=' bg-slate-700 items-center justify-items-center w-[320px] rounded-lg overflow-hidden cursor-pointer'>
+      <div className='hover:scale-110 duration-300 ease-in-out'>
         <img src={props.image} alt={props.title} />
       </div>
       <div className='px-4'>

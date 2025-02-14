@@ -49,7 +49,7 @@ const Footer = () => {
         
       </div>
       <div className='p-4 flex flex-row md:items-center justify-between font-nunito text-sm md:px-12'>
-      <p className='text-center'>© 2025 JOHNDEV™. All Rights Reserved.
+      <p className='text-center'>© 2025 JOHN.DEV™. All Rights Reserved.
         </p>
       <p className='text-center'>Built and Design by John Arenga</p>
       
