@@ -110,9 +110,9 @@ const Navbar = () => {
      <button 
       href='https://drive.google.com/file/d/1Aymy0hL-nW5d74matEKa_-a5x8LXpZNI/view?pli=1'
       className='btn-secondary'>
-            Download CV  
-            <HiMiniArrowTopRightOnSquare
-            className='ml-2 size-6'/>
+            Resume 
+            <FaDownload
+            className='ml-2 mt-0.5 size-4'/>
           </button>
           </a>
      </div>
