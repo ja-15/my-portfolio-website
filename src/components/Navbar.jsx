@@ -65,7 +65,7 @@ const Navbar = () => {
           ))}
         </ul>
       <div>
-      <a href='https://drive.google.com/file/d/1Aymy0hL-nW5d74matEKa_-a5x8LXpZNI/view?pli=1' target="blank">
+      <a href='https://drive.google.com/file/d/1qI9PL7j2Yz9_MRcUtsba_PxY79nVuGzL/view?usp=sharing' target="blank">
           <button 
             className='btn-secondary'>
             Resume 
@@ -75,7 +75,6 @@ const Navbar = () => {
           </a>
           </div>
         </div>
-
         
         <div className='md:hidden pl-4 mt-3 flex items-center'>
         {showSidebar ? (
