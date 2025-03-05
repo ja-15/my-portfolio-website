@@ -3,13 +3,14 @@ import rocketair from './assets/images/rocketair.png';
 import notetask from './assets/images/notetask.png';
 import myportfolio1 from './assets/images/myportfolio1.png';
 import conferenceTicketGenerator from './assets/images/conference-ticket-generator.png';
-import mortgagePaymentCalculator from './assets/images/mortgage-payment-calculator.png'
+import mortgagePaymentCalculator from './assets/images/mortgage-payment-calculator.png';
+import passwordManager from './assets/images/password-manager.png';
 
 
 
 import {FaFigma} from "react-icons/fa";
 import { FaReact, FaNodeJs} from "react-icons/fa";
-import { SiMongodb, SiExpress, } from "react-icons/si";
+import { SiMongodb, SiExpress, SiPostgresql } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { TbBrandFramerMotion, TbBrandNextjs } from "react-icons/tb";
 import { IoLogoJavascript  } from "react-icons/io5";
@@ -25,6 +26,7 @@ export const menu = [
 ]
 
 export const projects = [
+  
   {
     id: 3,
     title: 'Coaching Website',
@@ -114,7 +116,7 @@ export const projects = [
         iconColor:"yellow",
       },
       {
-        name:"Frame Motion",
+        name:"Framer Motion",
         icon: TbBrandFramerMotion,
         iconColor:"purple",
       },
@@ -184,5 +186,38 @@ export const projects = [
         iconColor: '#248fef'
       }
     ]
-  }
+  },
+  {
+    id: 7,
+    title: 'Password Storage and Manager',
+    image: passwordManager,
+    category: "Web",
+    data: {
+      description: `Password Manager is a secure and user-friendly tool designed to store, manage, and organize your passwords efficiently.`,
+      demoLink: "https://password-manager-mauve.vercel.app/",
+    },
+    stack:[
+      {
+        name:"Next.js",
+        icon: TbBrandNextjs,
+        iconColor:"black",
+      },
+      {
+        name:"Typescript",
+        icon: BiLogoTypescript,
+        iconColor:"#248fef",
+      },
+      {
+        name: 'TailwindCss',
+        icon: RiTailwindCssFill,
+        iconColor: '#248fef'
+      },
+      {
+        name: 'PostgreSQL',
+        icon: SiPostgresql,
+        iconColor: '#03adfc'
+      }
+
+    ]
+  },
 ]  
